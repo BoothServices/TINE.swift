@@ -73,7 +73,7 @@ if isNew {
     print("Enter the text to be saved, here. As of right now only one line :-(")
     var newFileText = getInput()
     print("creating file.......")
-    try writeToDocumentsFile(" \(newFileName)", value: "\(newFileText)")//using the above vars as strings
+    try writeToDocumentsFile("\(newFileName)", value: "\(newFileText)")//using the above vars as strings
     print("Done!")
     
 }
