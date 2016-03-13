@@ -56,7 +56,7 @@ func readFromDocumentsFile(fileName:String) throws -> String {
 
 //Starting the app....
 
-print("Welcome To SwiftyEdit! Would you like to (Open) a file or write a (New) one?\n");
+print("Welcome To TINE! Would you like to (Open) a file or write a (New) one?");
 var askNewOrOpen = getInput()
 
 let isNew =  ["new", "n", "New", "NEW", "New one", "new one", "New File", "new file", "New file", "NeW", "nEW", "neW", "N"].contains {
