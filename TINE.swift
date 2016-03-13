@@ -33,7 +33,6 @@ func writeToDocumentsFile(fileName:String,value:String) throws {
 
 }
 //function for reading files
-
 func readFromDocumentsFile(fileName:String) throws -> String {
     let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
     let path = documentsPath.stringByAppendingPathComponent(fileName)
